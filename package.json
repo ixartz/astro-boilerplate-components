@@ -1,0 +1,29 @@
+{
+  "name": "astro-boilerplate-components",
+  "version": "1.0.0",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/types/index.d.ts",
+  "scripts": {
+    "dev": "rollup --watch --config",
+    "build-prod": "rollup --config",
+    "build": "run-s clean build-prod",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.9",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.73.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  },
+  "author": "Ixartz (https://github.com/ixartz)",
+  "license": "MIT"
+}

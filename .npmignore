@@ -1,0 +1,7 @@
+# Source files
+src
+
+# Configuration file
+rollup.config.js
+tsconfig.json
+tailwind.config.js

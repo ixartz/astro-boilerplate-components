@@ -17,11 +17,15 @@ export default {
       file: packageJson.module,
       format: 'esm',
       sourcemap: true,
-    }
+    },
   ],
-  plugins: [external(), resolve({
-    // pass custom options to the resolve plugin
-    moduleDirectories: ['node_modules']
-  }),
-  commonjs(), typescript({ tsconfig: './tsconfig.json' })],
+  plugins: [
+    external(),
+    resolve({
+      // pass custom options to the resolve plugin
+      moduleDirectories: ['node_modules'],
+    }),
+    commonjs(),
+    typescript({ tsconfig: './tsconfig.json' }),
+  ],
 };

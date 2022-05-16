@@ -35,7 +35,7 @@
 
     "jsx": "react-jsx",
     // Enable stricter transpilation for better output.
-    "isolatedModules": true,
+    "isolatedModules": true
   },
   "exclude": ["./dist/**/*", "./node_modules/**/*"]
 }

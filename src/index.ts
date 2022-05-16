@@ -15,7 +15,7 @@ import { PostContent } from './components/PostContent';
 import { PostHeader } from './components/PostHeader';
 import { Project } from './components/Project';
 import { Section } from './components/Section';
-import { Tags } from './components/Tags';
+import { ColorTags, Tags } from './components/Tags';
 import type {
   FrontmatterPage,
   IFrontmatter,
@@ -30,6 +30,7 @@ export {
   type Page,
   BlogCard,
   BlogGallery,
+  ColorTags,
   FooterCopyright,
   GradientText,
   HeroAvatar,

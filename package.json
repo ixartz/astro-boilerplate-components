@@ -9,6 +9,7 @@
     "build-prod": "rollup --config",
     "build": "run-s clean build-prod",
     "clean": "rimraf dist",
+    "prepare": "husky install",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {

@@ -13,7 +13,7 @@ const PostHeader = (props: IPostHeaderProps) => (
 
     <div className="mt-2 text-center text-sm text-gray-400">
       By {props.author} on{' '}
-      {format(new Date(props.content.publishDate), 'LLL d, yyyy')}
+      {format(new Date(props.content.pubDate), 'LLL d, yyyy')}
     </div>
   </>
 );

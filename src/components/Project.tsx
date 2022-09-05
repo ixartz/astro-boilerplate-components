@@ -30,7 +30,7 @@ const Project = (props: IProjectProps) => (
           <div className="text-xl font-semibold">{props.name}</div>
         </a>
 
-        <div className="ml-3 flex gap-2">{props.category}</div>
+        <div className="ml-3 flex flex-wrap gap-2">{props.category}</div>
       </div>
 
       <p className="mt-3 text-gray-400">{props.description}</p>

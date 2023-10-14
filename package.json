@@ -1,9 +1,9 @@
 {
   "name": "astro-boilerplate-components",
-  "version": "1.0.12",
+  "version": "1.0.15",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "dist/esm/types/index.d.ts",
+  "types": "dist/esm/index.d.ts",
   "scripts": {
     "dev": "rollup --watch --config",
     "build-prod": "rollup --config",
